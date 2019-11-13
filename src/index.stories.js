@@ -5,5 +5,5 @@ export const story1 = () => html`
 `;
 
 export const story2 = () => html`
-  <custom-element name="Buddy"></custom-element>
+  <custom-element name="Budy"></custom-element>
 `;
