@@ -5,7 +5,7 @@ export const story1 = () => html`
 `;
 
 export const story2 = () => html`
-  <custom-element name="🐶 Doggy"></custom-element>
+  <custom-element name="🐶 Buddy"></custom-element>
 `;
 
 export const story3 = () =>
