@@ -15,7 +15,7 @@ export default class MyElement extends LitElement {
 
   render() {
     return html`
-      <button class="btn">Hello Cecile ${this.name}!</button>
+      <button class="btn">Hello ${this.name}!</button>
     `;
   }
 }
