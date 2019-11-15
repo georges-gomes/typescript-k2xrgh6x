@@ -1,6 +1,6 @@
 [![edit-in-webcomponents.dev](https://webcomponents.dev/assets/ext/edit_in_wcd.svg)](https://webcomponents.dev/edit/BQjgOJoeJDAJVMRnygLL)
 
-# Anibuttons
+# Ani-buttons
 
 Lorem ipsum dolor sit amet, consectetuer
 adipiscing elit. Aenean commodo ligula eget
