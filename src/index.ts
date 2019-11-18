@@ -4,6 +4,7 @@ import { LitElement, html, css, property } from "lit-element";
 // Extend the LitElement base class
 export default class MyElement extends LitElement {
   @property() name: string = "World";
+  @property() sound: string = "woof";
 
   static get styles() {
     return css`
@@ -16,9 +17,17 @@ export default class MyElement extends LitElement {
     `;
   }
 
+  onClick() {
+    this.dispatchEvent(
+      new CustomEvent("bark", { detail: { sound: this.sound } })
+    );
+  }
+
   render() {
     return html`
-      <button class="btn">Hello ${this.name}!</button>
+      <button class="btn" @click="${this.onClick}">
+        Hello ${this.name}!
+      </button>
     `;
   }
 }

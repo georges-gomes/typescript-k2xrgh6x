@@ -8,7 +8,6 @@ export const story2 = () => html`
   <custom-element name="🐶 Buddy"></custom-element>
 `;
 
-export const story3 = () =>
-  html`
-    ${story1()} ${story2()}
-  `;
+export const story3 = () => html`
+  <custom-element name="🦄 Unicorn"></custom-element>
+`;
