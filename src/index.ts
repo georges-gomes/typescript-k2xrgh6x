@@ -12,7 +12,15 @@ export default class MyElement extends LitElement {
         font-size: 300%;
         border: 3px solid #0099ff;
         border-radius: 15px;
-        background: #0099ff55;
+        color: white;
+        background: linear-gradient(
+          to right,
+          yellow,
+          green,
+          cyan,
+          blue,
+          violet
+        );
       }
     `;
   }
