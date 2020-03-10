@@ -4,7 +4,7 @@ import { LitElement, html, css, property } from "lit-element";
 // Extend the LitElement base class
 export default class MyElement extends LitElement {
   @property() name: string = "World";
-  @property() sound: string = "woof";
+  @property() sound: string = "meow";
 
   static get styles() {
     return css`
@@ -27,7 +27,7 @@ export default class MyElement extends LitElement {
 
   onClick() {
     this.dispatchEvent(
-      new CustomEvent("bark", { detail: { sound: this.sound } })
+      new CustomEvent("meow", { detail: { sound: this.sound } })
     );
   }
 
